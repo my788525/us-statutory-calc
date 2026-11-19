@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "us-statutory-calc"
+version = "1.0.0"
+description = "Deterministic 2026 US statutory calculators, federal compliance audit frameworks, and legal-financial algorithms."
+readme = "README.md"
+authors = [
+  { name = "Institutional Legal-Financial Research Team", email = "engineering@lianu.com" },
+]
+license = { text = "MIT" }
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Legal Industry",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Office/Business :: Financial :: Accounting",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Operating System :: OS Independent",
+]
+keywords = [
+    "mcp",
+    "statutory-calculators",
+    "compliance",
+    "ftc-cars-rule",
+    "irs-tax-relief",
+    "fincen-boi",
+    "severance-calculator",
+    "fcra",
+    "security-deposit",
+    "child-support-arrears",
+]
+requires-python = ">=3.9"
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://github.com/my788525/us-statutory-calc"
+"Repository" = "https://github.com/my788525/us-statutory-calc"
+"MCP Server Reference" = "https://github.com/my788525/us-statutory-calculators-mcp"
+"VehCalc Auto Finance" = "https://vehcalc.com/tools/dealer-otd-trap-scanner/"
+"FiscTalk Tax Resolution" = "https://fisctalk.com/tools/irs-notice-resolver/"
+"CashBizly Corporate Advisory" = "https://cashbizly.com/fincen-boi-reporting-exemption-audit/"
+"DayFig Workplace Rights" = "https://dayfig.com/tools/severance-calculator/"
+"LicenseFig Offer Protection" = "https://licensefig.com/tools/background-check-dispute/"
+"ReloFig Tenant Rights" = "https://relofig.com/calculators/security-deposit-refund/"
+"ChildSupportFig National Desk" = "https://childsupportfig.com/child-support-arrears-interest/"
+"DevFixPro Developer Tools" = "https://devfixpro.com/tools/git-secret-sanitizer/"
